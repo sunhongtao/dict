@@ -35,4 +35,12 @@ vi. 讲话
 dict.trans("中国")
 名 China; the People's Republic of China; Sino-; PRC 
 ```
+缺陷
+=======
+* 暂不能查看例句；
+* 没有在python3上测试；
+* 代码冗杂
+
+欢迎大家继续更新
+QQ：782666126
 
