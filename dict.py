@@ -79,12 +79,3 @@ def trans(word,example=False):
             for d in i:
                 print d,
             print "\n"
-
-if __name__ == '__main__':
-    trans("join")
-    print "*"*20
-    trans("模 糊")
-    print "*"*20
-    trans("part1")
-    print "*"*20
-    trans("中国2")
