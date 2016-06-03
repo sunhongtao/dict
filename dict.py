@@ -9,7 +9,6 @@ Created on 2016年6月2日
 from bs4 import BeautifulSoup
 import urllib2
 import re
-import sys
 
 BASEURL = "http://www.iciba.com/"
 
@@ -79,12 +78,3 @@ def trans(word,example=False):
             for d in i:
                 print d,
             print "\n"
-
-if __name__ == '__main__':
-    trans("join")
-    print "*"*20
-    trans("模 糊")
-    print "*"*20
-    trans("part1")
-    print "*"*20
-    trans("中国2")
